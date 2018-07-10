@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
+title: "AssimilateReality Launches Site"
 date: 2018-07-10
 ---
 
