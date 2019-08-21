@@ -3,3 +3,6 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
 theme: jekyll-theme-tactile
+title: Assimilate Reality
+description: August 2019
+baseurl: /assimilatereality
