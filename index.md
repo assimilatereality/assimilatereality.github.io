@@ -5,3 +5,5 @@ The Quest. What can it be but a search. The Holy Grail is Truth, Reality. It is 
 The truth of a thing can only be known through Direct Perception of its reality. To not have Truth is to be blinded, unable to understand reality, or what is real.
 
 The field of data science offers tools that enable us to harness computing power that dwarfs what was possible only a few years ago. Using it, we can grapple with datasets in an attempt to remove layers of bias. This blog will document some of my contributions to the Quest.
+
+A semi-parallel blog is [Assimilate Reality](http://www.assimilatereality.tech)
