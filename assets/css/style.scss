@@ -1,0 +1,16 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Add custom styles
+.container, .inner, .markdown-body, article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, ol {
+  padding-left: 15px;
+  padding-right: 15px;
+}
