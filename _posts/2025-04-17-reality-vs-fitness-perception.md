@@ -5,11 +5,11 @@ date: 2025-04-17
 categories: blog
 ---
 
-# Reality v. Fitness Perception: Two Evolutionary Frameworks for System Architecture
+## Reality v. Fitness Perception: Two Evolutionary Frameworks for System Architecture
 
 In the complex world of modern technical systems, how we approach problem-solving reveals deeper philosophical frameworks that guide our architectural decisions. Two competing evolutionary theories—reality perception versus fitness perception—offer fascinating insights into troubleshooting methodologies and system design. This post explores these fundamental approaches and how they shape modern system architecture and operations.
 
-## The Philosophical Divide
+### The Philosophical Divide
 
 Evolutionary psychology presents us with two competing models for how organisms (and by extension, engineers) perceive and interact with the world:
 
@@ -19,7 +19,7 @@ Evolutionary psychology presents us with two competing models for how organisms 
 
 These contrasting perspectives manifest clearly in how engineers approach troubleshooting and system design.
 
-## Reality Perception in System Analysis
+### Reality Perception in System Analysis
 
 The reality perception approach to system issues emphasizes comprehensive understanding and root cause analysis:
 
@@ -32,7 +32,7 @@ Engineers operating from this framework might deploy extensive monitoring system
 
 This approach excels with novel, complex problems where existing mental models are insufficient. However, it can be resource-intensive and time-consuming, sometimes delaying resolution while pursuing complete understanding.
 
-## Fitness-Based Perception in System Resolution
+### Fitness-Based Perception in System Resolution
 
 The fitness-based approach prioritizes outcomes over understanding:
 
@@ -51,7 +51,7 @@ Other common heuristics include:
 
 This approach excels in time-sensitive scenarios and for common problems with established patterns. It's typically more efficient but may miss underlying issues that will recur without deeper analysis.
 
-## Implications for System Design
+### Implications for System Design
 
 The tension between these two perception frameworks directly influences how we design and operate systems:
 
@@ -69,6 +69,6 @@ The tension between these two perception frameworks directly influences how we d
 	•	Playbooks for common scenarios
 	•	Training focused on recognition and response patterns
 
-In our next post, we'll explore how automation and generic mitigations reveal the interplay between these philosophical approaches, and how the concept of antifragility might transcend this fundamental dichotomy altogether.
+In my next post, we'll explore how automation and generic mitigations reveal the interplay between these philosophical approaches, and how the concept of antifragility might transcend this fundamental dichotomy altogether.
 
 What's your approach? Do you find yourself leaning more toward reality perception or fitness perception in your own troubleshooting and system design work?
