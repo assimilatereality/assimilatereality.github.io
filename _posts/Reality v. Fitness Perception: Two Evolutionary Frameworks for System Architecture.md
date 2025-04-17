@@ -5,7 +5,7 @@ date: 2025-04-17
 categories: blog
 ---
 
-# Reality vs. Fitness Perception: Two Evolutionary Frameworks for System Architecture
+# Reality v. Fitness Perception: Two Evolutionary Frameworks for System Architecture
 
 In the complex world of modern technical systems, how we approach problem-solving reveals deeper philosophical frameworks that guide our architectural decisions. Two competing evolutionary theories—reality perception versus fitness perception—offer fascinating insights into troubleshooting methodologies and system design. This post explores these fundamental approaches and how they shape modern system architecture and operations.
 
