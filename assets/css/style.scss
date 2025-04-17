@@ -14,3 +14,15 @@ p, h1, h2, h3, h4, h5, h6, ul, ol {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.site-title {
+  font-family: "Arial", sans-serif; // Change to your preferred font
+  font-size: 32px;                  // Change to your preferred size
+  font-weight: bold;
+}
+
+.site-description {
+  font-family: "Georgia", serif;    // Change to your preferred font
+  font-size: 18px;                  // Change to your preferred size
+  font-style: italic;
+}
