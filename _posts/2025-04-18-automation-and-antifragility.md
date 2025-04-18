@@ -1,7 +1,5 @@
 ## Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy
 
-Part 1 of this series: [Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy](https://assimilatereality.github.io/blog/2025/04/17/reality-vs-fitness-perception.html)
-
 In my previous post, I introduced the philosophical divide between reality perception and fitness perception approaches in system architecture. Now, we'll explore how automation embodies this dichotomy and introduce the concept of antifragile design as a path to transcend these seemingly opposing viewpoints.
 ### The Role of Automation and Generic Mitigations
 Automation in technical systems reveals the interplay between these two philosophical approaches:
@@ -75,3 +73,5 @@ Antifragile design reveals that the reality vs. fitness perception dichotomy is 
 
 My next post will explore the Cynefin Framework, which provides context for determining which perception approach is most appropriate based on the nature of the problem at hand.
 Until then, consider: How might you introduce elements of antifragility into your current systems? What controlled stressors could help your architecture become more resilient?
+
+Part 1 of this series: [Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy](https://assimilatereality.github.io/blog/2025/04/17/reality-vs-fitness-perception.html)
