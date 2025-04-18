@@ -59,11 +59,11 @@ Antifragility—a concept developed by Nassim Nicholas Taleb—describes systems
 
 Building truly antifragile systems means:
 
-	1.	**Embracing Controlled Failure:** Tools like Netflix's Chaos Monkey deliberately introduce failures during business hours when teams are ready to respond and learn.
-	2.	**Designing for Adaptation:** Architecture that can reconfigure based on actual usage patterns, not just predetermined scaling rules.
-	3.	**Implementing Feedback Loops:** Systems that not only detect issues but automatically implement and evaluate solutions, constantly evolving their response patterns.
-	4.	**Creating Optionality:** Maintaining multiple ways to achieve outcomes so that failure of any single path doesn't cripple the system.
-	5.	**Building Margin:** Deliberately maintaining excess capacity that can absorb unexpected stresses and provide space for exploration.
+	1. Embracing Controlled Failure: Tools like Netflix's Chaos Monkey deliberately introduce failures during business hours when teams are ready to respond and learn.
+	2. Designing for Adaptation: Architecture that can reconfigure based on actual usage patterns, not just predetermined scaling rules.
+	3. Implementing Feedback Loops: Systems that not only detect issues but automatically implement and evaluate solutions, constantly evolving their response patterns.
+	4. Creating Optionality: Maintaining multiple ways to achieve outcomes so that failure of any single path doesn't cripple the system.
+	5. Building Margin: Deliberately maintaining excess capacity that can absorb unexpected stresses and provide space for exploration.
 
 ### The Synthesis
 
