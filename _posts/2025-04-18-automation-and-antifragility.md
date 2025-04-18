@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy"
+date: 2025-04-18
+categories: blog
+---
+
 ## Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy
 
 In my previous post, I introduced the philosophical divide between reality perception and fitness perception approaches in system architecture. Now, we'll explore how automation embodies this dichotomy and introduce the concept of antifragile design as a path to transcend these seemingly opposing viewpoints.
