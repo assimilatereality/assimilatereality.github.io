@@ -1,4 +1,7 @@
 ## Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy
+
+Part 1 of this series: (https://assimilatereality.github.io/blog/2025/04/17/reality-vs-fitness-perception.html)
+
 In my previous post, I introduced the philosophical divide between reality perception and fitness perception approaches in system architecture. Now, we'll explore how automation embodies this dichotomy and introduce the concept of antifragile design as a path to transcend these seemingly opposing viewpoints.
 ### The Role of Automation and Generic Mitigations
 Automation in technical systems reveals the interplay between these two philosophical approaches:
