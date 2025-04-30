@@ -2,7 +2,11 @@
 layout: post
 title: "Reality vs Fitness Perception: Two Evolutionary Frameworks for System Architecture"
 date: 2025-04-30
-categories: reality-vs-fitness
+categories: 
+  - reality-vs-fitness
+  - system
+  - architecture
+  - perception
 ---
 
 # Reality vs. Fitness Perception: Two Evolutionary Frameworks for System Architecture
