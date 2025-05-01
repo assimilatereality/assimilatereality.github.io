@@ -183,6 +183,6 @@ The most sophisticated engineering organizations don't simply choose one approac
 	4	Contextual Switching: Training engineers to recognize when to apply each approach based on situation characteristics
 	5	Balanced Metrics: Evaluating team performance on both immediate resolution metrics and long-term system improvement
 
-In our next post, we'll explore how automation and generic mitigations reveal the interplay between these philosophical approaches, and how the concept of antifragility might transcend this fundamental dichotomy altogether.
+In my next post, we'll explore how automation and generic mitigations reveal the interplay between these philosophical approaches, and how the concept of antifragility might transcend this fundamental dichotomy altogether.
 
 What's your approach? Do you find yourself leaning more toward reality perception or fitness perception in your own troubleshooting and system design work? Are there specific contexts where you deliberately switch between these modes?
