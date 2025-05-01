@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy"
+title: "Part 2: Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy"
 date: 2025-05-01
 categories: 
   - reality-vs-fitness
@@ -8,7 +8,7 @@ categories:
   - antifragile
 ---
 
-# Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy
+# Part 2: Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy
 In the previous post, I introduced the philosophical divide between reality perception and fitness perception approaches in system architecture. Today, we'll explore how automation embodies this dichotomy and introduce the concept of antifragile design as a path to transcend these seemingly opposing viewpoints.
 ## The Role of Automation: Encoded Perception Frameworks
 Automation in technical systems provides a fascinating lens through which to examine our perception frameworks. The design of automated systems necessarily encodes assumptions about how systems work and what constitutes effective intervention—making explicit the mental models that human operators might apply intuitively.
