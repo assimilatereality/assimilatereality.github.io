@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Part 3: Cognitive Biases in Troubleshooting: When Our Minds Mislead Us"
-date: 2025-05-02
+title: "Part 4: Cognitive Biases in Troubleshooting: When Our Minds Mislead Us"
+date: 2025-05-03
 categories: 
   - reality-vs-fitness
   - bias
   - troubleshooting
 ---
 
-# Part 3: Cognitive Biases in Troubleshooting: When Our Minds Mislead Us
+# Part 4: Cognitive Biases in Troubleshooting: When Our Minds Mislead Us
 
 In my previous posts, we've explored reality versus fitness perception approaches and frameworks for applying them appropriately. However, our evolutionary perception frameworks must account for another crucial factor: cognitive biases that affect technical troubleshooting.
 
