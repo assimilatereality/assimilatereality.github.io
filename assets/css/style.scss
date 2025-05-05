@@ -27,36 +27,111 @@ p, h1, h2, h3, h4, h5, h6, ul, ol {
   font-style: italic;
 }
 
-/* Chessboard-inspired background */
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Tech/SRE/Deep Learning inspired background */
 body {
-  background-color: #f0d9b5;
+  background-color: #0a192f; /* Dark blue tech background */
   background-image: 
-    linear-gradient(45deg, #b58863 25%, transparent 25%), 
-    linear-gradient(-45deg, #b58863 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, #b58863 75%),
-    linear-gradient(-45deg, transparent 75%, #b58863 75%);
-  background-size: 60px 60px;
-  background-position: 0 0, 0 30px, 30px -30px, -30px 0px;
+    radial-gradient(circle at 25px 25px, rgba(75, 107, 169, 0.15) 2px, transparent 0),
+    linear-gradient(to right, rgba(66, 133, 244, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(66, 133, 244, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px, 25px 25px, 25px 25px;
 }
 
-/* Improve content readability against the chessboard background */
-.page-content, .post-content, main {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
+/* Ensure the site header stands out from the background */
+.site-header {
+  background-color: rgba(15, 30, 60, 0.95);
+  border-bottom: 1px solid #4a5568;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Make the title and description more visible */
+.site-title, .site-title:visited {
+  color: #f8f9fa;
+  font-weight: bold;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.site-nav .page-link {
+  color: #f8f9fa;
+}
+
+/* Site description styling */
+.site-description {
+  color: #a0aec0;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+/* Improve content readability against the dark background */
+.page-content, .post-content, main, .home {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 25px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
 }
 
-/* Optional: Style headers with chess-themed colors */
+/* Style headers with tech theme colors */
 h1, h2, h3 {
-  color: #5d4037;
+  color: #2c5282; /* Deep blue for headers */
 }
 
-/* Optional: Style links with chess-themed colors */
+/* Style links with tech theme colors */
 a {
-  color: #795548;
+  color: #3182ce; /* Bright blue for links */
 }
 
 a:hover {
-  color: #3e2723;
+  color: #2b6cb0; /* Darker blue for hover state */
+}
+
+/* Add a subtle tech pattern to post cards */
+.post-list > li {
+  background-color: rgba(247, 250, 252, 0.8);
+  border-left: 4px solid #4299e1;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.post-list > li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Style post metadata */
+.post-meta {
+  color: #718096;
+}
+
+/* Optional: Add a cool tech pattern to footer */
+.site-footer {
+  background-color: rgba(15, 30, 60, 0.95);
+  background-image: linear-gradient(90deg, rgba(66, 153, 225, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: #e2e8f0;
+  border-top: 1px solid #4a5568;
+}
+
+.footer-col-wrapper {
+  color: #cbd5e0;
+}
+
+.footer-heading {
+  color: #f7fafc;
+}
+
+.social-media-list a {
+  color: #90cdf4;
+}
+
+.social-media-list a:hover {
+  color: #63b3ed;
 }
