@@ -27,11 +27,6 @@ p, h1, h2, h3, h4, h5, h6, ul, ol {
   font-style: italic;
 }
 
----
----
-
-@import "{{ site.theme }}";
-
 /* Tech/SRE/Deep Learning inspired background */
 body {
   background-color: #0a192f; /* Dark blue tech background */
