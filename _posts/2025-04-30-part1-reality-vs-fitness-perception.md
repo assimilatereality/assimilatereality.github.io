@@ -7,6 +7,7 @@ categories:
   - system
   - architecture
   - perception
+tags: [reality-perception, fitness-perception, evolutionary-frameworks, mental-models]
 ---
 
 # Part 1: Reality vs. Fitness Perception: Two Evolutionary Frameworks for System Architecture
