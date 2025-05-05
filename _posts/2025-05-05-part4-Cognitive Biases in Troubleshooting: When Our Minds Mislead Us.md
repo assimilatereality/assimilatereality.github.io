@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part 4: Cognitive Biases in Troubleshooting: When Our Minds Mislead Us"
-date: 2025-05-03
+date: 2025-05-05
 categories: 
   - reality-vs-fitness
   - bias
