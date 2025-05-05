@@ -10,7 +10,7 @@ categories:
 
 # Part 4: Cognitive Biases in Troubleshooting: When Our Minds Mislead Us
 
-In my previous posts, we've explored reality versus fitness perception approaches and frameworks for applying them appropriately. However, our evolutionary perception frameworks must account for another crucial factor: cognitive biases that affect technical troubleshooting.
+In my previous posts, I've explored reality versus fitness perception approaches and frameworks for applying them appropriately. However, our evolutionary perception frameworks must account for another crucial factor: cognitive biases that affect technical troubleshooting.
 
 These mental shortcuts evolved to help us make quick decisions but can significantly impair our ability to diagnose and resolve complex system issues. Understanding these biases is essential for effective troubleshooting regardless of which perception approach you favor.
 
@@ -467,6 +467,6 @@ The most effective engineers aren't necessarily those with the most knowledge or
 
 As our systems grow increasingly complex, metacognitive awareness—understanding how we think about systems—becomes as important as technical knowledge itself. The engineers and organizations that thrive will be those that build this awareness into their culture, processes, and tools.
 
-In my next post, we'll explore how resilience engineering provides a framework that goes beyond traditional failure prevention to examine how systems succeed under varying conditions.
+In my next post, I'll explore how resilience engineering provides a framework that goes beyond traditional failure prevention to examine how systems succeed under varying conditions.
 
-Until then, consider: Which cognitive biases have affected your troubleshooting in the past? What debiasing techniques might you implement in your team's workflow? How might awareness of these biases change your approach to the reality/fitness perception dichotomy we've been exploring?
+Until then, consider: Which cognitive biases have affected your troubleshooting in the past? What debiasing techniques might you implement in your team's workflow? How might awareness of these biases change your approach to the reality/fitness perception dichotomy?
