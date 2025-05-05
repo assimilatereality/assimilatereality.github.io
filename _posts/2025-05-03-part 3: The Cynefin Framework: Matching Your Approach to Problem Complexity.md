@@ -5,6 +5,7 @@ date: 2025-05-03
 categories: 
   - reality-vs-fitness
   - cynefin-framework
+tags: [cynefin, complexity, decision-frameworks, context-awareness]
 ---
 
 # Part 3: The Cynefin Framework: Matching Your Approach to Problem Complexity
