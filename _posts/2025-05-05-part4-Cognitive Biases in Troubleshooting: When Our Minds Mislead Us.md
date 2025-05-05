@@ -6,6 +6,7 @@ categories:
   - reality-vs-fitness
   - bias
   - troubleshooting
+tags: [cognitive-bias, troubleshooting, incident-response, debiasing]
 ---
 
 # Part 4: Cognitive Biases in Troubleshooting: When Our Minds Mislead Us
