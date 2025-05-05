@@ -6,6 +6,7 @@ categories:
   - reality-vs-fitness
   - automation
   - antifragile
+tags: [correctness, robustness, trade-offs, design-principles, antifragile, automation]
 ---
 
 # Part 2: Automation and Antifragile Design: Beyond the Reality-Fitness Dichotomy
