@@ -31,9 +31,10 @@ p, h1, h2, h3, h4, h5, h6, ul, ol {
 body {
   background-color: #0a192f; /* Dark blue tech background */
   background-image: 
-  radial-gradient(rgba(66, 153, 225, 0.1) 3px, transparent 4px),
-  repeating-linear-gradient(0deg, transparent, transparent 9px, rgba(66, 153, 225, 0.05) 10px, rgba(66, 153, 225, 0.05) 10px);
-background-size: 30px 30px, 10px 10px;
+  linear-gradient(to right, rgba(66, 153, 225, 0.1) 1px, transparent 1px),
+  linear-gradient(to bottom, rgba(66, 153, 225, 0.1) 1px, transparent 1px),
+  radial-gradient(circle at 25px 25px, rgba(66, 153, 225, 0.15) 4px, transparent 5px);
+background-size: 50px 50px, 50px 50px, 50px 50px;
 }
 
 /* Ensure the site header stands out from the background */
