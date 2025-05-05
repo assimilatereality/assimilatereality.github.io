@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part 3: The Cynefin Framework: Matching Your Approach to Problem Complexity"
-date: 2025-05-02
+date: 2025-05-05
 categories: 
   - reality-vs-fitness
   - cynefin-framework
@@ -9,7 +9,7 @@ categories:
 
 # Part 3: The Cynefin Framework: Matching Your Approach to Problem Complexity
 
-In our previous posts, we explored the reality versus fitness perception dichotomy and how antifragile design can transcend this divide. Today, we'll examine how Dave Snowden's Cynefin Framework provides a powerful lens for determining which perception approach is most appropriate based on the nature of the problem at hand.
+In previous posts, I explored the reality versus fitness perception dichotomy and how antifragile design can transcend this divide. Today, I'll examine how Dave Snowden's Cynefin Framework provides a powerful lens for determining which perception approach is most appropriate based on the nature of the problem at hand.
 
 ## The Origins and Evolution of Cynefin
 
@@ -370,6 +370,6 @@ This contextual awareness helps teams:
 4. **Build balanced capabilities**: Developing teams with skills across all domains
 5. **Communicate effectively**: Establishing shared understanding of problem contexts
 
-In our next post, we'll explore cognitive biases that affect troubleshooting and how these mental shortcuts influence our ability to accurately diagnose and resolve complex system issues.
+In my next post, I'll explore cognitive biases that affect troubleshooting and how these mental shortcuts influence our ability to accurately diagnose and resolve complex system issues.
 
 Until then, consider: What domain do most of your system issues fall into? How might recognizing the domain change your approach to solving these problems? Are there cases where domain misclassification has led to ineffective solutions in your experience?
