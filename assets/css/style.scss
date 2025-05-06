@@ -136,7 +136,7 @@ a:hover {
 /* Two-column layout with explicit widths */
 .home-columns {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 300px; /* Explicit width of 300px for sidebar */
+  grid-template-columns: minmax(0, 1fr) 600px; /* Explicit width of 300px for sidebar */
   gap: 20px;
 }
 
