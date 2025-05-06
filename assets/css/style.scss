@@ -131,3 +131,45 @@ a:hover {
   color: #63b3ed;
 }
 
+/* 2 column layout
+/* Create a two-column layout */
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Your custom content (the part from index.md) */
+.home > .home-content {
+  flex: 2;
+  min-width: 60%;
+}
+
+/* The default posts listing */
+.home > ul.post-list {
+  flex: 1;
+  min-width: 250px;
+  border-left: 1px solid #e8e8e8;
+  padding-left: 20px;
+  margin-top: 50px; /* Add some spacing from the top */
+}
+
+/* Add a title for the posts sidebar */
+.home > h2.post-list-heading {
+  flex: 1 0 100%;
+  order: 2;
+  margin-top: 30px;
+}
+
+/* Responsive layout for small screens */
+@media screen and (max-width: 800px) {
+  .home {
+    flex-direction: column;
+  }
+  
+  .home > ul.post-list {
+    border-left: none;
+    padding-left: 0;
+    width: 100%;
+  }
+}
