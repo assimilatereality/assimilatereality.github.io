@@ -7,7 +7,7 @@ categories:
   - devops
   - reliability
   - systems-thinking
-tags: [resilience-engineering devops sre hro systems-thinking antifragility incident-management observability knowledge-transfer]
+tags: [resilience-engineering, devops, sre, hro, systems-thinking, antifragility, incident-management, observability, knowledge-transfer]
 ---
 
 # Resilience Engineering, DevOps, and High Reliability: The Organizational Fabric of Resilient Systems
