@@ -132,44 +132,68 @@ a:hover {
 }
 
 /* 2 column layout
-/* Create a two-column layout */
-.home {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+/* Two-column layout */
+.main-content {
+  width: 65%;
+  float: left;
+  padding-right: 30px;
 }
 
-/* Your custom content (the part from index.md) */
-.home > .home-content {
-  flex: 2;
-  min-width: 60%;
+.posts-section {
+  width: 30%;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
 }
 
-/* The default posts listing */
+.posts-section h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #4299e1;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.posts-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.posts-section li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 10px;
+}
+
+.posts-section li:last-child {
+  border-bottom: none;
+}
+
+/* Clear the existing posts list */
+.home > h2:last-of-type,
 .home > ul.post-list {
-  flex: 1;
-  min-width: 250px;
-  border-left: 1px solid #e8e8e8;
-  padding-left: 20px;
-  margin-top: 50px; /* Add some spacing from the top */
+  display: none;
 }
 
-/* Add a title for the posts sidebar */
-.home > h2.post-list-heading {
-  flex: 1 0 100%;
-  order: 2;
-  margin-top: 30px;
-}
-
-/* Responsive layout for small screens */
+/* Responsive layout */
 @media screen and (max-width: 800px) {
-  .home {
-    flex-direction: column;
+  .main-content,
+  .posts-section {
+    width: 100%;
+    float: none;
+    padding-right: 0;
   }
   
-  .home > ul.post-list {
-    border-left: none;
-    padding-left: 0;
-    width: 100%;
+  .posts-section {
+    margin-top: 30px;
   }
+}
+
+/* Clear floats */
+.home:after {
+  content: "";
+  display: table;
+  clear: both;
 }
