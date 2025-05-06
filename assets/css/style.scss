@@ -27,9 +27,9 @@ p, h1, h2, h3, h4, h5, h6, ul, ol {
   font-style: italic;
 }
 
-/* Tech/SRE/Deep Learning inspired background */
+/* Your existing tech background styles */
 body {
-  background-color: #0a192f; /* Dark blue tech background */
+  background-color: #0a192f;
   background-image: 
     radial-gradient(circle at 25px 25px, rgba(75, 107, 169, 0.15) 2px, transparent 0),
     linear-gradient(to right, rgba(66, 133, 244, 0.1) 1px, transparent 1px),
@@ -132,73 +132,59 @@ a:hover {
 }
 
 /* 2 column layout
-/* Two-column layout - using flexbox for better control */
-.home {
-  display: flex;
-  flex-wrap: wrap;
+/* Two-column layout - direct HTML approach */
+.home-columns {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   gap: 30px;
 }
 
-.main-content {
-  flex: 1;
-  flex-basis: 65%;
-  min-width: 300px;
-}
-
-.posts-section {
-  flex: 1;
-  flex-basis: 25%;
-  min-width: 200px;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 15px;
+.main-column {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 25px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  align-self: flex-start;
-  position: sticky;
-  top: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-.posts-section h2 {
+.sidebar-column {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  align-self: start;
+}
+
+.quick-links-title {
+  color: #2c5282;
   margin-top: 0;
-  border-bottom: 2px solid #4299e1;
   padding-bottom: 10px;
-  margin-bottom: 15px;
+  border-bottom: 2px solid #4299e1;
 }
 
-.posts-section ul {
+.quick-links-list {
   list-style-type: none;
   padding-left: 0;
+  margin-left: 0;
 }
 
-.posts-section li {
-  margin-bottom: 10px;
-  border-bottom: 1px solid #e8e8e8;
-  padding-bottom: 10px;
+.quick-links-list li {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.posts-section li:last-child {
+.quick-links-list li:last-child {
   border-bottom: none;
-}
-
-/* Hide the default posts list */
-h2.post-list-heading,
-ul.post-list,
-p.rss-subscribe {
-  display: none !important;
 }
 
 /* Responsive layout */
 @media screen and (max-width: 768px) {
-  .home {
-    flex-direction: column;
+  .home-columns {
+    grid-template-columns: 1fr;
   }
-  
-  .main-content,
-  .posts-section {
-    flex-basis: 100%;
-  }
-  
-  .posts-section {
-    position: static;
-  }
+}
+
+/* Hide the original post list */
+.post-list-heading, .post-list, .rss-subscribe {
+  display: none !important;
 }
