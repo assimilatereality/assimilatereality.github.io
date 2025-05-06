@@ -136,7 +136,7 @@ a:hover {
 /* Two-column layout - direct HTML approach */
 .home-columns {
   display: grid;
-  grid-template-columns: 3fr 1.3fr; /* Increased the second column width */
+  grid-template-columns: 4fr 1.3fr; /* Increased the second column width */
   gap: 20px;
 }
 
@@ -151,14 +151,8 @@ a:hover {
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  max-width: 800px; /* Control the maximum width */
+  max-width: 768px; /* Control the maximum width */
   margin: 0 auto; /* Center if narrower than available space */
-}
-
-/* Remove duplicate background from outer container if needed */
-.main-column {
-  background-color: transparent;
-  box-shadow: none;
 }
 
 .sidebar-column {
