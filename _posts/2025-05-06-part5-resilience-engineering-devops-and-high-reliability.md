@@ -10,7 +10,7 @@ categories:
 tags: [resilience-engineering, devops, sre, hro, systems-thinking, antifragility, incident-management, observability, knowledge-transfer]
 ---
 
-# Resilience Engineering, DevOps, and High Reliability: The Organizational Fabric of Resilient Systems
+# Part 5: Resilience Engineering, DevOps, and High Reliability: The Organizational Fabric of Resilient Systems
 
 The exploration of reality and fitness perception models has moved from theoretical foundations to practical troubleshooting approaches. I've examined how these cognitive frameworks influence diagnostic biases and shape understanding of system behavior. But how do we translate these insights into organizational structures that consistently deliver reliable systems? Today I'll weave together three complementary frameworks – Resilience Engineering, DevOps/SRE practices, and High Reliability Organization theory – that help us build not just resilient systems, but resilient organizations.
 
