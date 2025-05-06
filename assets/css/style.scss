@@ -133,11 +133,13 @@ a:hover {
 
 /* 2 column layout
 /* Two-column layout - direct HTML approach */
-/* Two-column layout with explicit widths */
+/* Balanced two-column layout */
 .home-columns {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 600px; /* Explicit width of 300px for sidebar */
+  grid-template-columns: minmax(550px, 3fr) minmax(250px, 1fr); /* Balanced ratio */
   gap: 20px;
+  max-width: 1100px; /* Control overall width */
+  margin: 0 auto; /* Center the layout */
 }
 
 /* Remove duplicate background from outer container if needed */
@@ -151,6 +153,7 @@ a:hover {
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  min-width: 0; /* Prevent overflow */
 }
 
 .sidebar-column {
@@ -159,8 +162,7 @@ a:hover {
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   align-self: start;
-  width: 300px; /* Explicit width here as well */
-  box-sizing: border-box; /* Ensure padding is included in width */
+  min-width: 0; /* Prevent overflow */
 }
 
 .quick-links-title {
