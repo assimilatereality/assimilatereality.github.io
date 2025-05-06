@@ -10,6 +10,13 @@ tags: [cynefin, complexity, decision-frameworks, context-awareness]
 
 # Part 3: The Cynefin Framework: Matching Your Approach to Problem Complexity
 
+_Executive Summary: This third post applies Dave Snowden's Cynefin Framework to determine which perception approach best fits different problem domains. I explore how the Simple/Obvious domain benefits from fitness-based "sense-categorize-respond" patterns, the Complicated domain rewards reality-based "sense-analyze-respond" approaches, the Complex domain requires experimental "probe-sense-respond" cycles, and the Chaotic domain demands immediate "act-sense-respond" actions. Detailed examples and domain transition patterns demonstrate how system issues frequently move between these domains during their lifecycle, how domain misclassification leads to ineffective responses, and how the most robust architectures incorporate elements addressing all domains to handle issues appropriately regardless of their complexity._
+
+---
+---
+<hr style="margin-bottom: 20px;">
+
+
 In previous posts, I explored the reality versus fitness perception dichotomy and how antifragile design can transcend this divide. Today, I'll examine how Dave Snowden's Cynefin Framework provides a powerful lens for determining which perception approach is most appropriate based on the nature of the problem at hand.
 
 ## The Origins and Evolution of Cynefin
