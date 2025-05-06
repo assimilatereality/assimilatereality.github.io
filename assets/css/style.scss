@@ -132,21 +132,30 @@ a:hover {
 }
 
 /* 2 column layout
-/* Two-column layout */
+/* Two-column layout - using flexbox for better control */
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 .main-content {
-  width: 65%;
-  float: left;
-  padding-right: 30px;
+  flex: 1;
+  flex-basis: 65%;
+  min-width: 300px;
 }
 
 .posts-section {
-  width: 30%;
-  float: right;
+  flex: 1;
+  flex-basis: 25%;
+  min-width: 200px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin-top: 50px;
+  align-self: flex-start;
+  position: sticky;
+  top: 20px;
 }
 
 .posts-section h2 {
@@ -171,29 +180,25 @@ a:hover {
   border-bottom: none;
 }
 
-/* Clear the existing posts list */
-.home > h2:last-of-type,
-.home > ul.post-list {
-  display: none;
+/* Hide the default posts list */
+h2.post-list-heading,
+ul.post-list,
+p.rss-subscribe {
+  display: none !important;
 }
 
 /* Responsive layout */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+  
   .main-content,
   .posts-section {
-    width: 100%;
-    float: none;
-    padding-right: 0;
+    flex-basis: 100%;
   }
   
   .posts-section {
-    margin-top: 30px;
+    position: static;
   }
-}
-
-/* Clear floats */
-.home:after {
-  content: "";
-  display: table;
-  clear: both;
 }
