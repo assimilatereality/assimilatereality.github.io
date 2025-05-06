@@ -130,3 +130,50 @@ a:hover {
 .social-media-list a:hover {
   color: #63b3ed;
 }
+
+/* two column layout
+/* Create a two-column layout */
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Your custom posts list */
+.home > :not(.posts) {
+  flex: 2;
+  min-width: 60%;
+}
+
+/* Default posts list from theme */
+.home > .posts {
+  flex: 1;
+  min-width: 250px;
+  border-left: 1px solid #e8e8e8;
+  padding-left: 20px;
+}
+
+/* Responsive layout for small screens */
+@media screen and (max-width: 800px) {
+  .home {
+    flex-direction: column;
+  }
+  
+  .home > .posts {
+    border-left: none;
+    border-top: 1px solid #e8e8e8;
+    padding-left: 0;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+}
+
+/* Add a title to the second column */
+.home > .posts:before {
+  content: "Quick Links";
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 15px;
+  color: #2c5282;
+}
