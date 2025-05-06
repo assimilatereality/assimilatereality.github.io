@@ -16,7 +16,7 @@ _**Executive Summary:** This post introduces two competing evolutionary framewor
 
 ---
 ---
-
+<hr style="margin-bottom: 20px;">
 
 
 
