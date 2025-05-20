@@ -17,15 +17,14 @@ _**Executive Summary:** This second installment examines how automation explicit
 ---
 <hr style="margin-bottom: 20px;">
 
-
-
+* **Comprehensive Data Acquisition**:
 In the previous post, I introduced the philosophical divide between reality perception and fitness perception approaches in system architecture. In this post, I'll explore how automation embodies this dichotomy and introduce the concept of antifragile design as a path to transcend these seemingly opposing viewpoints.
 ## The Role of Automation: Encoded Perception Frameworks
 Automation in technical systems provides a fascinating lens through which to examine our perception frameworks. The design of automated systems necessarily encodes assumptions about how systems work and what constitutes effective intervention—making explicit the mental models that human operators might apply intuitively.
 ### Fitness-oriented Automation: Outcome-Driven Response
 This approach implements generic mitigations without deep analysis, prioritizing restoration of service over comprehensive understanding:
 #### Core Characteristics
-	•	Pattern Recognition: Identifies known signatures of problems rather than underlying causes
+	* **Pattern Recognition**: Identifies known signatures of problems rather than underlying causes
 	•	Heuristic Implementation: Encodes proven response patterns into automated workflows
 	•	Threshold-Based Triggers: Initiates responses based on predefined KPI thresholds
 	•	Outcome Optimization: Designed to maximize specific metrics like availability or response time
