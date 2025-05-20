@@ -19,7 +19,7 @@ _**Executive Summary:** This second installment examines how automation explicit
 
 
 
-In the previous post, I introduced the philosophical divide between reality perception and fitness perception approaches in system architecture. Today, we'll explore how automation embodies this dichotomy and introduce the concept of antifragile design as a path to transcend these seemingly opposing viewpoints.
+In the previous post, I introduced the philosophical divide between reality perception and fitness perception approaches in system architecture. In this post, I'll explore how automation embodies this dichotomy and introduce the concept of antifragile design as a path to transcend these seemingly opposing viewpoints.
 ## The Role of Automation: Encoded Perception Frameworks
 Automation in technical systems provides a fascinating lens through which to examine our perception frameworks. The design of automated systems necessarily encodes assumptions about how systems work and what constitutes effective intervention—making explicit the mental models that human operators might apply intuitively.
 ### Fitness-oriented Automation: Outcome-Driven Response
@@ -33,23 +33,23 @@ This approach implements generic mitigations without deep analysis, prioritizing
 
 #### Implementation Examples
 	1	Automated Recovery Systems
-	◦	Kubernetes self-healing: Automatically restarts failed containers based on health check failures without analyzing why they failed
-	◦	Auto-scaling groups: Add capacity when load increases without understanding the nature of the traffic
-	◦	Circuit breakers: Temporarily disable failing downstream services to prevent cascading failures
+	        ◦  Kubernetes self-healing: Automatically restarts failed containers based on health check failures without analyzing why they failed
+	        ◦  Auto-scaling groups: Add capacity when load increases without understanding the nature of the traffic
+	        ◦  Circuit breakers: Temporarily disable failing downstream services to prevent cascading failures
 	2	Generic Mitigation Patterns
-	◦	Cache invalidation routines triggered by specific error patterns
-	◦	Automated database connection pool recycling when query latency exceeds thresholds
-	◦	Session redistribution when server health metrics indicate potential issues
-	◦	"Retry with exponential backoff" patterns for transient failures
+		◦  Cache invalidation routines triggered by specific error patterns
+		◦  Automated database connection pool recycling when query latency exceeds thresholds
+		◦  Session redistribution when server health metrics indicate potential issues
+		◦  "Retry with exponential backoff" patterns for transient failures
 	3	Operational Safeguards
-	◦	Rate limiting that activates automatically based on request volume
-	◦	Failover systems that activate based on simple availability checks
-	◦	Automatic traffic rerouting when latency thresholds are exceeded
+		◦  Rate limiting that activates automatically based on request volume
+		◦  Failover systems that activate based on simple availability checks
+		◦  Automatic traffic rerouting when latency thresholds are exceeded
 **Case Study: Netflix's Adaptive Systems** Netflix has pioneered fitness-oriented automation through systems like their Adaptive Concurrency Limiters. Rather than attempting to model all possible causes of service degradation (a reality-based approach), these systems dynamically adjust concurrency limits based on observed latency. The system doesn't need to understand why latency is increasing—it simply adapts to maintain optimal throughput under changing conditions. This exemplifies fitness perception's focus on outcomes over understanding.
 #### Limitations and Failure Modes
 Fitness-oriented automation can fail in several distinctive ways:
 
-	1	Novel Failure Modes: When encountering previously unseen issues, may apply inappropriate mitigations
+	1	**Novel Failure Modes:** When encountering previously unseen issues, may apply inappropriate mitigations
 	2	Oscillation: May create cyclic patterns as automatic responses trigger counter-responses
 	3	Masking Underlying Issues: Can hide deeper problems by treating symptoms
 	4	Automation Blindness: May create organizational overreliance on automated responses without questioning their appropriateness
