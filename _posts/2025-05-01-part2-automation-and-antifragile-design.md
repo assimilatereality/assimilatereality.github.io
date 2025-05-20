@@ -32,49 +32,49 @@ This approach implements generic mitigations without deep analysis, prioritizing
 
 #### Implementation Examples
 	1	Automated Recovery Systems
-	        ◦  Kubernetes self-healing: Automatically restarts failed containers based on health check failures without analyzing why they failed
-	        ◦  Auto-scaling groups: Add capacity when load increases without understanding the nature of the traffic
-	        ◦  Circuit breakers: Temporarily disable failing downstream services to prevent cascading failures
+	        * **Kubernetes self-healing: Automatically restarts failed containers based on health check failures without analyzing why they failed
+	        * **Auto-scaling groups: Add capacity when load increases without understanding the nature of the traffic
+	        * **Circuit breakers: Temporarily disable failing downstream services to prevent cascading failures
 	2	Generic Mitigation Patterns
-		◦  Cache invalidation routines triggered by specific error patterns
-		◦  Automated database connection pool recycling when query latency exceeds thresholds
-		◦  Session redistribution when server health metrics indicate potential issues
-		◦  "Retry with exponential backoff" patterns for transient failures
+		* **Cache invalidation routines triggered by specific error patterns
+		* **Automated database connection pool recycling when query latency exceeds thresholds
+		* **Session redistribution when server health metrics indicate potential issues
+		* **"Retry with exponential backoff" patterns for transient failures
 	3	Operational Safeguards
-		◦  Rate limiting that activates automatically based on request volume
-		◦  Failover systems that activate based on simple availability checks
-		◦  Automatic traffic rerouting when latency thresholds are exceeded
+		* **Rate limiting that activates automatically based on request volume
+		* **Failover systems that activate based on simple availability checks
+		* **Automatic traffic rerouting when latency thresholds are exceeded
 **Case Study: Netflix's Adaptive Systems** Netflix has pioneered fitness-oriented automation through systems like their Adaptive Concurrency Limiters. Rather than attempting to model all possible causes of service degradation (a reality-based approach), these systems dynamically adjust concurrency limits based on observed latency. The system doesn't need to understand why latency is increasing—it simply adapts to maintain optimal throughput under changing conditions. This exemplifies fitness perception's focus on outcomes over understanding.
 #### Limitations and Failure Modes
 Fitness-oriented automation can fail in several distinctive ways:
 
-	1	**Novel Failure Modes:** When encountering previously unseen issues, may apply inappropriate mitigations
-	2	Oscillation: May create cyclic patterns as automatic responses trigger counter-responses
-	3	Masking Underlying Issues: Can hide deeper problems by treating symptoms
-	4	Automation Blindness: May create organizational overreliance on automated responses without questioning their appropriateness
-	5	Brittle Optimization: Systems optimized for specific conditions may fail catastrophically when those conditions change
+	* **Novel Failure Modes:** When encountering previously unseen issues, may apply inappropriate mitigations
+	* **Oscillation**: May create cyclic patterns as automatic responses trigger counter-responses
+	* **Masking Underlying Issues**: Can hide deeper problems by treating symptoms
+	* **Automation Blindness**: May create organizational overreliance on automated responses without questioning their appropriateness
+	* **Brittle Optimization**: Systems optimized for specific conditions may fail catastrophically when those conditions change
 ### Reality-oriented Automation: Understanding-Driven Analysis
 This approach attempts to codify deeper understanding, prioritizing accurate modeling and root cause identification:
 #### Core Characteristics
-	•	System Modeling: Attempts to represent actual system behavior and relationships
-	•	Causal Analysis: Focuses on identifying root causes rather than symptoms
-	•	Anomaly Detection: Identifies deviations from expected behavior based on comprehensive monitoring
-	•	Knowledge Accumulation: Designed to build and refine understanding over time
-	•	Explainability Priority: Emphasizes clear reasoning for automated decisions
+	* **System Modeling**: Attempts to represent actual system behavior and relationships
+	* **Causal Analysis**: Focuses on identifying root causes rather than symptoms
+	* **Anomaly Detection**: Identifies deviations from expected behavior based on comprehensive monitoring
+	* **Knowledge Accumulation**: Designed to build and refine understanding over time
+	* **Explainability Priority**: Emphasizes clear reasoning for automated decisions
 #### Implementation Examples
 	1	Advanced Monitoring Systems
-	◦	Distributed tracing platforms that model request flows through complex systems
-	◦	Anomaly detection systems using machine learning to establish normal behavior baselines
-	◦	Topology mapping tools that automatically discover and visualize system dependencies
+		* **Distributed tracing platforms** that model request flows through complex systems
+		* **Anomaly detection systems** using machine learning to establish normal behavior baselines
+		* **Topology mapping tools** that automatically discover and visualize system dependencies
 	2	Diagnostic Automation
-	◦	Root cause analysis tools that trace issues through multiple system layers
-	◦	Correlation engines that identify relationships between seemingly disparate events
-	◦	Automated system probing that tests multiple components to isolate failures
-	◦	Change impact analysis systems that link deployments to performance shifts
+		* **Root cause analysis tools** that trace issues through multiple system layers
+		* **Correlation engines** that identify relationships between seemingly disparate events
+		* **Automated system probing** that tests multiple components to isolate failures
+		* **Change impact analysis systems** that link deployments to performance shifts
 	3	Knowledge Systems
-	◦	Self-documenting infrastructure that maintains current system state information
-	◦	Incident correlation databases that build knowledge of issue patterns over time
-	◦	Automated runbook generation based on historical resolution paths
+		* **Self-documenting infrastructure** that maintains current system state information
+		* **Incident correlation databases** that build knowledge of issue patterns over time
+  		* **Automated runbook generation** based on historical resolution paths
 Case Study: Google's Monitoring Infrastructure Google's Monarch monitoring system exemplifies reality-oriented automation. Rather than simply triggering responses based on thresholds, it builds comprehensive time-series models of system behavior, enables high-cardinality dimensional analysis, and supports complex queries across infrastructure. This approach enables engineers to build increasingly accurate mental models of system behavior, aligning with reality perception's emphasis on understanding over immediate response.
 #### Limitations and Failure Modes
 Reality-oriented automation faces its own challenges:
