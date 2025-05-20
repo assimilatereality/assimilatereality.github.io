@@ -25,10 +25,10 @@ Automation in technical systems provides a fascinating lens through which to exa
 This approach implements generic mitigations without deep analysis, prioritizing restoration of service over comprehensive understanding:
 #### Core Characteristics
 	* **Pattern Recognition**: Identifies known signatures of problems rather than underlying causes
-	•	Heuristic Implementation: Encodes proven response patterns into automated workflows
-	•	Threshold-Based Triggers: Initiates responses based on predefined KPI thresholds
-	•	Outcome Optimization: Designed to maximize specific metrics like availability or response time
-	•	Efficiency Priority: Minimizes time-to-resolution for common scenarios
+	* **Heuristic Implementation**: Encodes proven response patterns into automated workflows
+	* **Threshold-Based Triggers**: Initiates responses based on predefined KPI thresholds
+	* **Outcome Optimization**: Designed to maximize specific metrics like availability or response time
+	* **Efficiency Priority**: Minimizes time-to-resolution for common scenarios
 
 #### Implementation Examples
 	1	Automated Recovery Systems
