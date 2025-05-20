@@ -32,10 +32,10 @@ This approach implements generic mitigations without deep analysis, prioritizing
 
 #### Implementation Examples
 	Automated Recovery Systems
-	        * **Kubernetes self-healing: Automatically restarts failed containers based on health check failures without analyzing why they failed
-	        * **Auto-scaling groups: Add capacity when load increases without understanding the nature of the traffic
-	        * **Circuit breakers: Temporarily disable failing downstream services to prevent cascading failures
-	2	Generic Mitigation Patterns
+	  * **Kubernetes self-healing: Automatically restarts failed containers based on health check failures without analyzing why they failed
+	  * **Auto-scaling groups: Add capacity when load increases without understanding the nature of the traffic
+	  * **Circuit breakers: Temporarily disable failing downstream services to prevent cascading failures
+	Generic Mitigation Patterns
 		* **Cache invalidation routines triggered by specific error patterns
 		* **Automated database connection pool recycling when query latency exceeds thresholds
 		* **Session redistribution when server health metrics indicate potential issues
