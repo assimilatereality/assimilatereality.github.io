@@ -31,7 +31,7 @@ This approach implements generic mitigations without deep analysis, prioritizing
 	* **Efficiency Priority**: Minimizes time-to-resolution for common scenarios
 
 #### Implementation Examples
-	1	Automated Recovery Systems
+	Automated Recovery Systems
 	        * **Kubernetes self-healing: Automatically restarts failed containers based on health check failures without analyzing why they failed
 	        * **Auto-scaling groups: Add capacity when load increases without understanding the nature of the traffic
 	        * **Circuit breakers: Temporarily disable failing downstream services to prevent cascading failures
