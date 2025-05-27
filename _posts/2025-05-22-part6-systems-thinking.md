@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part 6: Systems Thinking and Complexity Theory: The Ontological Limits of Complete Understanding"
-date: 2025-05-09
+date: 2025-05-22
 categories:
   - systems thinking
   - complexity
