@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part 8: A Unified Approach: The Three-Tier Strategy for Transcending the Reality-Fitness Dichotomy"
-date: 2025-05-11
+date: 2025-05-24
 categories:
   - system-architecture
   - philosophy
