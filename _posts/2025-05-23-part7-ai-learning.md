@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part 7: Machine Learning and Deep Learning: Transcending the Boundaries of Human Perception"
-date: 2025-05-10
+date: 2025-05-23
 categories:
   - machine-learning
   - cognition
