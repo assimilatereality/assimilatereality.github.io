@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part 2: Automation and Antifragile Design: Transcending the Reality-Fitness Dichotomy"
-date: 2025-05-27
+date: 2025-05-18
 categories: 
   - automation
   - antifragile
