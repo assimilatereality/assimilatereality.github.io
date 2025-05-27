@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part 5: Resilience Engineering, DevOps, and High Reliability: The Organizational Fabric of Resilient Systems"
-date: 2025-05-06
+date: 2025-05-21
 categories:
   - resilience
   - devops
