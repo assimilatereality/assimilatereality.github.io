@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part 3: The Cynefin Framework: Matching Your Approach to Problem Complexity"
-date: 2025-05-03
+date: 2025-05-19
 categories: 
   - reality-vs-fitness
   - cynefin-framework
