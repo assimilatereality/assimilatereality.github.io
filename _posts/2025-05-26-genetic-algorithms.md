@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Evolutionary Security: Genetic Algorithms for Adaptive Log Analysis"
-date: 2025-05-27
+date: 2025-05-26
 categories: [security, machine-learning]
 tags: [genetic-algorithms, log-analysis, cybersecurity, anomaly-detection, evolutionary-computing, threat-detection, sre, automation]
 author: [Rodney Tigges]
