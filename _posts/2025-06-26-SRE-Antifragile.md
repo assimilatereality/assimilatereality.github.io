@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Antifragile SRE: Building Systems That Thrive on Chaos"
-date: 2025-05-26
+date: 2025-06-26
 categories: [engineering-practices]
 tags: [sre, antifragile-systems, chaos-engineering, reliability-engineering, system-design, operational-excellence]
 author: [Rodney Tigges]
