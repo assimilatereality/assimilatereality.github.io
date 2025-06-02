@@ -36,8 +36,7 @@ This article can be a little heavy at times. To soften the blow, I provide the f
 
 ---
 
-
-# Executive Summary: Systems Thinking and Complexity Theory
+## Executive Summary
 
 ### Core Thesis
 Reality perception approaches to complex system troubleshooting—those seeking complete and accurate understanding—encounter fundamental ontological limitations, not merely practical ones. These limitations arise from inherent properties of complex systems that transcend traditional analytical frameworks.
