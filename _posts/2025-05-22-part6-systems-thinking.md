@@ -36,8 +36,6 @@ This article can be a little heavy at times. To soften the blow, I provide the f
 
 ---
 
----
----
 
 # Executive Summary: Systems Thinking and Complexity Theory
 
