@@ -53,7 +53,7 @@ Reality perception approaches to complex system troubleshooting—those seeking 
 
 4. **Delayed Effects**: Temporal dispersion between actions and consequences challenges human cognition, which evolved to detect immediate causality. When effects manifest weeks or months after causes, even rigorous observation may fail to connect them.
 
-### Recurring Patterns in System Behavior
+#### Recurring Patterns in System Behavior
 
 Systems thinking identifies archetypal patterns that manifest across domains:
 
@@ -63,7 +63,7 @@ Systems thinking identifies archetypal patterns that manifest across domains:
 
 3. **Limits to Growth**: Initial success leads to growth that encounters fundamental constraints, as seen in architectures that function effectively at initial scales but face inherent limitations as they expand.
 
-### The Philosophical Implications of Complexity
+#### The Philosophical Implications of Complexity
 
 1. **Ontological Gap**: System-level properties exist in a different conceptual space than component-level properties, making complete reduction impossible even in principle.
 
@@ -73,9 +73,9 @@ Systems thinking identifies archetypal patterns that manifest across domains:
 
 4. **Phase Transitions**: Systems can rapidly shift between qualitatively different states when crossing critical thresholds, creating discontinuities in behavior that previous models cannot predict.
 
-## Practical Implications
+### Practical Implications
 
-### The Limitations of Models
+#### The Limitations of Models
 
 Every model necessarily simplifies reality due to:
 - Variable proliferation exceeding our tracking capacity
@@ -83,7 +83,7 @@ Every model necessarily simplifies reality due to:
 - Observer effects changing system behavior during measurement
 - Fundamental unmeasurability of certain variables
 
-### When Reality Perception Reaches Its Limits
+#### When Reality Perception Reaches Its Limits
 
 In truly complex systems, pure reality perception approaches face:
 - Computational boundaries arising from complexity theory
@@ -91,11 +91,11 @@ In truly complex systems, pure reality perception approaches face:
 - Emergent horizons that cannot be predicted from components
 - Evolutionary dynamics that create a half-life for knowledge
 
-### A Philosophical Bridge: Bayesian Reasoning
+#### A Philosophical Bridge: Bayesian Reasoning
 
 Bayesian probability offers a framework for balancing prior knowledge (fitness-based heuristics) with new evidence (reality-based analysis), aligning with Karl Popper's view that knowledge progresses through falsification rather than verification.
 
-## Strategic Direction
+### Strategic Direction
 
 Rather than pursuing the impossible goal of complete understanding, effective approaches should:
 
