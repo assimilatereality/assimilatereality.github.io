@@ -51,7 +51,7 @@ The fitness of your systems isn't measured by their ability to avoid failure but
 Traditional SRE asks: "How do we prevent this from happening again?"
 Evolutionary SRE asks: "How does this make us stronger?"
 
-Systems achieve fitness through continuous adaptation to environmental pressures. Each incident, each spike in traffic, each unexpected behavior is genetic material for evolution. The fittest systems aren't those that never face challenges—they're the ones that evolve fastest from each encounter.
+Evolutionary systems achieve fitness through continuous adaptation to environmental pressures. Each incident, each spike in traffic, each unexpected behavior is genetic material for evolution. The fittest systems aren't those that never face challenges—they're the ones that evolve fastest from each encounter.
 
 ### 2. Stress as Signal, Not Noise
 
@@ -73,7 +73,7 @@ Traditional SRE relies on human experts manually crafting monitoring rules, runb
 
 #### Case Study: Evolutionary Security Detection Success
 
-Recent research in genetic algorithm-based log analysis demonstrates the power of computational evolution in practice. Instead of security analysts manually writing detection rules, the system:
+Recent research in [genetic algorithm-based log analysis](https://assimilatereality.github.io/security/machine-learning/2025/05/26/genetic-algorithms.html) demonstrates the power of computational evolution in practice. Instead of security analysts manually writing detection rules, the system:
 
 - **Generated populations** of candidate detection rules automatically
 - **Evaluated fitness** based on precision (catching real threats) and rarity (avoiding alert fatigue)  
