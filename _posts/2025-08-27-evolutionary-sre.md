@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Evolutionary SRE: Building Systems That Thrive on Chaos"
-date: 2025-05-27
+date: 2025-08-27
 categories: [engineering-practices, sre]
 tags: [sre, evolutionary-computing, chaos-engineering, reliability-engineering, system-design, operational-excellence, genetic-algorithms, antifragile-systems, machine-learning, automation, incident-response, monitoring, adaptive-systems, computational-evolution, site-reliability-engineering]
 author: [Rodney Tigges]
