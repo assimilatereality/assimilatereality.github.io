@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Part 1: Reality vs. Fitness Perception vs. Both"
+date: 2025-05-17
+categories: 
+  - system-architecture
+  - perception-frameworks
+tags: [epistemology, reality-perception, fitness-perception, troubleshooting, evolutionary-theory, problem-solving, cognitive-models, correctness, robustness, engineering-philosophy]
+---
+
 # Part 1: When Systems Break, How Do You Really See Them?
 
 Let me tell you about two engineers I've worked with (names changed, obviously). Both sharp, both successful, but they approached broken systems in completely different ways. Understanding why might change how you think about troubleshooting.
