@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part 1: Reality vs. Fitness Perception vs. Both"
-date: 2025-05-01
+date: 2026-01-18
 categories: 
   - system-architecture
   - perception-frameworks
