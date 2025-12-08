@@ -12,10 +12,11 @@ tags: [reality-perception, fitness-perception, troubleshooting, problem-solving,
 
 # Two Ways Engineers Think About Problems: Reality vs. Fitness Perception
 
-----------------
 
 _**Executive Summary:** Engineers approach technical problems in fundamentally different ways. Some prioritize deep understanding—building comprehensive models of how systems actually work, tracing causal chains, and reasoning from first principles. Others focus on pragmatic outcomes—applying proven patterns, leveraging experience-based shortcuts, and getting systems working quickly. This article explores these two frameworks (reality perception vs. fitness perception), when each approach excels, and why the most effective teams integrate both rather than choosing one. A related tension between correctness (producing right results or failing) and robustness (maintaining operation despite failures) further shapes how we design systems. Understanding your natural tendencies helps you recognize when to deliberately switch modes—because the engineer who always seeks perfect understanding sometimes needs to ask "is good enough actually good enough here?" while the pattern-matcher occasionally needs to ask "is this the third time we've applied this same band-aid?"_
 
+----------------
+----------------
 ----------------
 
 ## The Deep Dive vs. The Quick Fix
