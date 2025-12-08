@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part 1: Reality vs. Fitness Perception: Epistemological Frameworks for System Architecture"
-date: 2025-11-17
+date: 2026-01-17
 categories: 
   - system-architecture
   - perception-frameworks
