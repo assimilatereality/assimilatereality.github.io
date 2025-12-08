@@ -14,6 +14,7 @@ _**Executive Summary:** Engineers approach technical problems in fundamentally d
 
 ______________________
 
+
 I've noticed a consistent pattern in how engineers approach the same problem differently. One person spends three days building a comprehensive model of query execution paths, connection pooling behavior, and network latency patterns, emerging with a detailed understanding of exactly why timeouts occur under specific load conditions. Another notices the timeouts started after recent schema changes, rolls back those changes, and has the system stable in twenty minutes.
 
 Both approaches work. Both engineers are competent. But they represent fundamentally different ways of thinking about technical problems—what I call reality perception versus fitness perception. Understanding this distinction has changed how I approach system architecture, troubleshooting, and team dynamics.
