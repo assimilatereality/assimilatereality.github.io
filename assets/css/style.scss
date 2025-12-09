@@ -5,7 +5,7 @@
 
 // Add custom styles
 .container, .inner, .markdown-body, article {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -144,9 +144,9 @@ a:hover {
 /* Two-column layout */
 .home-columns {
   display: grid;
-  grid-template-columns: minmax(705px, 3fr) minmax(300px, 1fr);
+  grid-template-columns: minmax(800px, 3fr) minmax(300px, 1fr);
   gap: 55px;
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 20px auto; /* Changed from 0 auto to show background */
 }
 
@@ -190,4 +190,9 @@ a:hover {
 /* Hide the original post list */
 .post-list-heading, .post-list, .rss-subscribe {
   display: none !important;
+}
+
+/* Override Minima's wrapper width */
+.wrapper {
+  max-width: calc(1300px - (30px * 2)) !important;
 }
