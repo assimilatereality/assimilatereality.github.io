@@ -45,6 +45,8 @@ The original team hadn't ignored the deployment data. They'd looked at it. But t
 
 **Real Example:** A team investigating API timeouts fixates on database connection pool exhaustion because they've seen it before. They examine connection pool metrics, tune pool sizes, adjust timeout values. Eventually they discover the actual cause: a misconfigured network ACL blocking return traffic from a specific subnet. They'd checked network metrics early but dismissed them because they were "looking for database issues."
 
+**A non-IT Example:** I've personnally seen this in the medical field. A near relative was experiencing pain within her rib cage. Her cardiologist at a world-renowned hospital performed many expensive tests, and found nothing but clean blood vessels and good heart. It took a physicians assistant to say they needed to check for a stomach ulcer. $30,000+ in medical bills led to a fix via a course of antibiotics. When asked why he hadn't found the ulcer earlier, he stated he wasn't looking for it.
+
 ### Availability Heuristic: Recent Memories Loom Large
 
 If you recently dealt with a memory leak, suddenly every performance problem looks like it might be memory-related. If you just fixed a noisy neighbor problem in your cloud infrastructure, you start suspecting resource contention everywhere.
@@ -55,7 +57,7 @@ Your brain judges probability based on how easily examples come to mind. Vivid, 
 
 **Why It Happens:** Your predictive brain uses past patterns to generate predictions about current situations. Recent experiences created stronger neural patterns—they're more "available" for pattern matching. This made evolutionary sense when environments changed slowly, but breaks down when we're troubleshooting systems where yesterday's problem has little bearing on today's.
 
-**Real Example:** Our service experienced periodic latency spikes. Because we'd recently handled a major "noisy neighbor" incident (another tenant's workload affecting ours), the team immediately focused on isolation issues. Days of analyzing tenant resource usage revealed nothing. The actual cause was mundane: a scheduled backup process interacting poorly with our new load balancer configuration. But the memorable drama of the previous incident created a prediction that shaped our investigation.
+**Real Example:** A service experienced periodic latency spikes. Because the team had recently handled a major "noisy neighbor" incident (a tenant's workload affecting another tenant), the team immediately focused on isolation issues. Days of analyzing tenant resource usage revealed nothing. The actual cause was mundane: a scheduled backup process interacting poorly with a new load balancer configuration. But the memorable drama of the previous incident created a prediction that shaped the investigation.
 
 ### Anchoring Bias: First Impressions Stick
 
@@ -65,7 +67,7 @@ Whatever you see first during an incident becomes your anchor point. Even when y
 
 **Why It Happens:** Your brain needs a starting point for predictions. The first information becomes your initial hypothesis—your anchor. Subsequent processing updates this prediction, but updates tend to be incremental rather than wholesale revisions. Even when told an initial value is arbitrary, it still influences judgment because your brain has already begun building a model around it.
 
-**Real Example:** During an incident, initial metrics showed API latency increases. This anchored all investigation around API performance. Hours of API optimizations yielded minimal improvement. Eventually we discovered the real issue: database connection exhaustion causing retries that manifested as API latency. The initial latency observation created such a strong anchor that we kept explaining subsequent evidence through that lens rather than questioning whether we were measuring the right thing.
+**Real Example:** During an incident, initial metrics showed API latency increases. This anchored all investigation around API performance. Hours of API optimizations yielded minimal improvement. Eventually the real issue was discovered: database connection exhaustion causing retries that manifested as API latency. The initial latency observation created such a strong anchor that the team kept explaining subsequent evidence through that lens rather than questioning whether they were measuring the right thing.
 
 ### Hindsight Bias: The "I Knew It All Along" Effect
 
@@ -75,7 +77,7 @@ After you solve a problem, it always seems more obvious than it was during the i
 
 **Why It Happens:** Once your brain knows an outcome, it retroactively adjusts its internal model to make that outcome seem more predictable. This isn't dishonest—it's how memory consolidation works in a predictive brain. Your current knowledge gets incorporated into past mental models, making it genuinely hard to remember what you didn't know before.
 
-**Real Example:** After a week-long investigation into periodic query timeouts, we discovered a missing database index on a recently added column was causing table scans. In the postmortem, team members described the solution as "obvious" and wondered why it took so long to find. This characterization ignored the complex investigation path—ruling out connection pooling, query optimizer bugs, server resource contention—that was necessary to isolate the actual cause. The hindsight bias made the solution seem more obvious than it actually was during investigation.
+**Real Example:** After a week-long investigation into periodic query timeouts, the troubleshooting team discovered a missing database index on a recently added column was causing table scans. In the postmortem, team members described the solution as "obvious" and wondered why it took so long to find. This characterization ignored the complex investigation path—ruling out connection pooling, query optimizer bugs, server resource contention—that was necessary to isolate the actual cause. The hindsight bias made the solution seem more obvious than it actually was during investigation.
 
 ## More Biases That Trip Us Up
 
@@ -89,15 +91,15 @@ We blame specific components rather than examining interactions between them. "T
 
 ### Recency Bias
 
-Recent changes get blamed for everything. If you deployed two hours ago, you're the prime suspect—even when the actual issue has been developing for months and just happened to cross a threshold.
+Recent changes get blamed for everything. If you deployed two hours ago, you're the prime suspect—even when the actual issue has been developing for months and just happened to cross a threshold. In a large organization, the network team will have many changes. They are chronically required to backout changes just to get the possibility of a network issue out of the way. And yes, they develop a complex.
 
 ### Authority Bias
 
-We give excessive weight to senior engineers' opinions. When the architect says "it's probably X," teams pursue X three times longer than objectively warranted, sometimes ignoring correct hunches from junior engineers.
+We give excessive weight to senior engineers' and executives' opinions. When they say "have you checked X" or "it's probably X," teams pursue X three times longer than objectively warranted, sometimes ignoring correct hunches from junior engineers.
 
 ### Automation Bias
 
-We trust automated systems over direct observations. "The dashboard shows everything's green" overrides "but I can literally see the error messages in the logs."
+We trust automated systems over direct observations. "The dashboard shows everything's green" overrides "but I can literally see the error messages in the logs." Or alternatively, "The dashboard shows X", but X is just a periodic harmless change only noticed during troubleshooting on the rarely viewed dashboard.
 
 ### Sunk Cost Fallacy
 
@@ -214,9 +216,9 @@ Reality-based and fitness-based troubleshooting face different bias vulnerabilit
 
 The engineers who handle incidents best aren't necessarily the smartest or most knowledgeable. They're the ones who understand their own cognitive limitations and build processes to compensate.
 
-I've become suspicious of my own certainty during incidents. When I catch myself thinking "obviously it's X," that's a red flag. It means my predictive brain has latched onto a hypothesis and stopped seriously considering alternatives.
+Become suspicious of your own certainty during incidents. When you catch myself thinking "obviously it's X," that's a red flag. It means your predictive brain has latched onto a hypothesis and stopped seriously considering alternatives.
 
-The strongest teams I've worked with explicitly acknowledge cognitive biases in their incident responses. They reference specific biases by name ("Are we falling for sunk cost here?" or "Let's check for confirmation bias"). This creates a shared vocabulary for metacognition—thinking about how we think.
+Strong teams explicitly acknowledge cognitive biases in their incident responses. They reference specific biases by name ("Are we falling for sunk cost here?" or "Let's check for confirmation bias"). This creates a shared vocabulary for metacognition—thinking about how we think.
 
 Our systems keep getting more complex. Our brains stay roughly the same. The gap between system complexity and cognitive capacity isn't closing—it's widening. Understanding and compensating for cognitive biases isn't optional anymore. It's fundamental to effective engineering.
 
