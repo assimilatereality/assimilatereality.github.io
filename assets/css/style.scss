@@ -196,3 +196,32 @@ a:hover {
 .wrapper {
   max-width: calc(1300px - (30px * 2)) !important;
 }
+
+/* Make post content wider */
+.post-content, .post {
+  max-width: 1000px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Override Minima's post wrapper */
+.post .wrapper,
+article .wrapper {
+  max-width: 1000px !important;
+}
+
+/* Make sure the page wrapper is also wider */
+.page-content .wrapper {
+  max-width: calc(1300px - (30px * 2)) !important;
+}
+
+/* For individual post pages */
+.post-content p,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content ul,
+.post-content ol {
+  max-width: 100%; /* Let them fill the post-content width */
+}
