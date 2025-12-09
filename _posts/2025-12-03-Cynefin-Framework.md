@@ -16,11 +16,11 @@ _**Executive Summary:** Different problems need different approaches. The Cynefi
 ------
 ------
 
+## Understanding Problem Types Through Real Incidents
+
 I've watched the same pattern play out dozens of times: a production issue hits, and the team immediately jumps to their preferred approach regardless of what they're facing. The database experts start analyzing query plans. The infrastructure folks check resource utilization. The application team reviews recent deployments. Or an executive jumps in and throws everyone in the direction he sees. Everyone applies their go-to method, and sometimes it works brilliantly. Other times, we waste hours or days going down the wrong path.
 
 The problem isn't that these approaches are wrong—it's that we're not stopping to ask what kind of problem we're actually dealing with. A framework developed by Dave Snowden called Cynefin (pronounced kuh-NEV-in, it's Welsh for "habitat") has helped me make better decisions about when to dive deep versus when to act fast, when to experiment versus when to follow established procedures.
-
-## Understanding Problem Types Through Real Incidents
 
 Cynefin categorizes situations into five domains based on how cause and effect work in each. I'll walk through them using actual scenarios I've encountered.
 
