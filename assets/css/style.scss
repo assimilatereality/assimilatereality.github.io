@@ -225,3 +225,19 @@ article .wrapper {
 .post-content ol {
   max-width: 100%; /* Let them fill the post-content width */
 }
+
+/* Force all content containers to be wider */
+.wrapper,
+.post-content,
+.page-content,
+article,
+main {
+  max-width: 1100px !important;
+}
+
+/* Remove the padding constraints that might be limiting width */
+p, h1, h2, h3, h4, h5, h6, ul, ol {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  max-width: 100% !important;
+}
