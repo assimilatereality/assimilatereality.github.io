@@ -1,0 +1,251 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ========================================
+   GLOBAL STYLES
+   ======================================== */
+
+/* Body background - soft blue-gray */
+body {
+  background-color: #f0f4f8 !important;
+  background-image: none !important;
+}
+
+/* Container width */
+.container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 30px !important;
+}
+
+main {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Remove default padding that narrows content */
+p, h1, h2, h3, h4, h5, h6, ul, ol {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* ========================================
+   HEADER STYLES
+   ======================================== */
+
+.site-header {
+  background-color: rgba(15, 30, 60, 0.95) !important;
+  border-bottom: 1px solid #4a5568;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.site-title {
+  font-family: "Arial", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #f8f9fa !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.site-title:visited {
+  color: #f8f9fa !important;
+}
+
+.site-description {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #a0aec0;
+  margin-top: 8px;
+}
+
+.site-nav .page-link {
+  color: #f8f9fa;
+}
+
+/* ========================================
+   CONTENT STYLES
+   ======================================== */
+
+/* Headers */
+h1, h2, h3 {
+  color: #2c5282;
+}
+
+/* Links */
+a {
+  color: #3182ce;
+}
+
+a:hover {
+  color: #2b6cb0;
+}
+
+/* Post metadata */
+.post-meta {
+  color: #718096;
+}
+
+/* ========================================
+   HOME PAGE LAYOUT
+   ======================================== */
+
+.home {
+  max-width: 1200px !important;
+  margin: 20px auto !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.home-columns {
+  display: grid;
+  grid-template-columns: minmax(800px, 3fr) minmax(300px, 1fr);
+  gap: 55px;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 20px;
+}
+
+.main-column {
+  background-color: #ffffff !important;
+  padding: 25px !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  min-width: 0;
+}
+
+.sidebar-column {
+  background-color: #ffffff !important;
+  padding: 20px !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  align-self: start;
+  min-width: 0;
+}
+
+/* Quick links styling */
+.quick-links-title {
+  color: #2c5282;
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #4299e1;
+}
+
+.quick-links-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.quick-links-list li {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.quick-links-list li:last-child {
+  border-bottom: none;
+}
+
+/* Hide the original post list */
+.post-list-heading, .post-list, .rss-subscribe {
+  display: none !important;
+}
+
+/* ========================================
+   POST PAGE LAYOUT
+   ======================================== */
+
+.post,
+.post-content,
+article {
+  max-width: 1200px !important;
+  margin: 20px auto !important;
+  padding: 40px !important;
+  background-color: #ffffff !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.post-header {
+  max-width: 100% !important;
+  margin: 0 0 30px 0 !important;
+  padding: 0 !important;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 20px !important;
+}
+
+.post-title {
+  margin-bottom: 10px;
+}
+
+/* ========================================
+   POST LIST (IF VISIBLE)
+   ======================================== */
+
+.post-list > li {
+  background-color: rgba(247, 250, 252, 0.8);
+  border-left: 4px solid #4299e1;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.post-list > li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ========================================
+   FOOTER STYLES
+   ======================================== */
+
+.site-footer {
+  background-color: rgba(15, 30, 60, 0.95) !important;
+  background-image: linear-gradient(90deg, rgba(66, 153, 225, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: #e2e8f0;
+  border-top: 1px solid #4a5568;
+}
+
+.footer-col-wrapper {
+  color: #cbd5e0;
+}
+
+.footer-heading {
+  color: #f7fafc;
+}
+
+.social-media-list a {
+  color: #90cdf4;
+}
+
+.social-media-list a:hover {
+  color: #63b3ed;
+}
+
+/* ========================================
+   RESPONSIVE LAYOUT
+   ======================================== */
+
+@media screen and (max-width: 768px) {
+  .home-columns {
+    grid-template-columns: 1fr;
+  }
+  
+  .container {
+    padding: 0 15px !important;
+  }
+  
+  .post,
+  .post-content,
+  article {
+    padding: 20px !important;
+    margin: 10px !important;
+  }
+}
