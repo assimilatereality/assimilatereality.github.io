@@ -29,13 +29,13 @@ p, h1, h2, h3, h4, h5, h6, ul, ol {
 
 /* Body background - soft blue-gray */
 body {
-  background-color: #f0f4f8;
-  background-image: none;
+  background-color: #f0f4f8; !important;
+  background-image: none; !important;
 }
 
 /* White content containers */
 .page-content, .post-content, main {
-  background-color: #ffffff;
+  background-color: #ffffff; !important;
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@ body {
 }
 
 .main-column {
-  background-color: #ffffff;
+  background-color: #ffffff; !important;
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -51,7 +51,7 @@ body {
 }
 
 .sidebar-column {
-  background-color: #ffffff;
+  background-color: #ffffff; !important;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
