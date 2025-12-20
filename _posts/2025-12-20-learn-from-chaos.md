@@ -28,7 +28,7 @@ Instead of "why do things go wrong?" what if we asked "how do things go right?" 
 
 Think about it. When an engineer makes a judgment call during an incident and the system stays up, we call it good operations. When that same type of judgment leads to an outage, we call it an incident. But the cognitive process is identical. The difference is outcome, not approach.
 
-I saw this clearly in my years managing systems. Commercial aviation maintains an extraordinary safety record not because pilots never make mistakes—they do, constantly—but because the system has evolved to catch, correct, and learn from those mistakes before they cascade into disasters. The focus isn't on eliminating errors but on creating contexts where errors can be handled effectively.
+Commercial aviation maintains an extraordinary safety record not because pilots never make mistakes—they do, constantly—but because the system has evolved to catch, correct, and learn from those mistakes before they cascade into disasters. The focus isn't on eliminating errors but on creating contexts where errors can be handled effectively.
 
 This maps directly to what I've called fitness perception: success comes from effective adaptation, not perfect understanding. The most reliable systems aren't those where nothing goes wrong—they're those that respond effectively when things inevitably do.
 
@@ -36,7 +36,7 @@ This maps directly to what I've called fitness perception: success comes from ef
 
 Here's something that frustrates me about many organizations: the persistent gap between "work-as-imagined" and "work-as-done." 
 
-You know what I'm talking about. The operations team maintains shadow documentation because the official procedures don't reflect how the system actually behaves. Developers bypass the formal change approval process for "quick fixes" that somehow become permanent. System administrators know exactly which server to restart when a particular error appears, though no one quite understands why it works.
+You know what I'm talking about. The operations team maintains secondary documentation, or worse, unwritten knowledge that leaves with personnel departures, because the official procedures don't reflect how the system actually behaves. Developers bypass the formal change approval process for "quick fixes" that somehow become permanent. System administrators know exactly which server to restart when a particular error appears, though no one quite understands why it works or what went wrong.
 
 These gaps don't come from negligence. They emerge because complex systems are fundamentally... well, complex. No documentation, no matter how detailed, can capture all the emergent properties of systems interacting with their environments. No process can anticipate every scenario that arises in practice.
 
@@ -52,7 +52,7 @@ Hollnagel identifies four capabilities essential for resilient systems: learning
 
 I've been in countless postmortems. The good ones accept that our understanding will always be partial. The bad ones create an illusion of complete understanding that makes the next incident more surprising.
 
-**Anticipating future developments** requires both frameworks working together. Reality perception helps project current trends forward. Fitness perception helps prepare for unexpected variations. The most effective organizations don't just prepare for predicted scenarios—they build adaptive capacity that can be deployed against unanticipated challenges.
+**Anticipating future developments** requires both frameworks working together. Reality perception helps project current trends forward. Fitness perception helps prepare for unexpected variations. Effective organizations don't just prepare for predicted scenarios—they build adaptive capacity that can be deployed against unanticipated challenges.
 
 **Monitoring present conditions** is where the frameworks meet. What you choose to monitor reflects your reality perception—what you believe matters. But how you interpret those signals often uses fitness perception heuristics—pattern recognition that helps you quickly identify deviations.
 
@@ -88,13 +88,13 @@ When configuration exists as code rather than manual procedures, the gap between
 
 The DevOps concept of blameless postmortems creates safe spaces for reality perception after incidents. By focusing on systemic factors rather than individual actions, these structured analyses enable honest exploration without triggering defensive responses.
 
-I cannot overstate how important this is. In environments where incidents lead to blame, engineers learn to hide problems, minimize impact, and cover tracks. Blameless postmortems allow engineers to describe what they observed, what they did, and why it seemed reasonable at the time, without fear.
+I cannot overstate how important this is. In environments where incidents lead to blame, engineers learn to hide problems, minimize impact, and cover tracks. Blameless postmortems allow engineers to describe what they observed, what they did, and why it seemed reasonable at the time, without fear. It cannot be blameless in name only; it has to be real and believed.
 
 This psychological safety is essential for bridging from fitness perception (how operators responded in the moment) to reality perception (understanding the broader context that made those responses necessary).
 
 ## Learning from Organizations That Get It Right
 
-Some organizations—nuclear power plants, aircraft carriers, air traffic control centers—maintain extraordinary safety records despite operating complex, high-risk systems. Research into these High Reliability Organizations reveals cultural principles that enable consistent performance.
+Some organizations—nuclear power plants, aircraft carriers, air traffic control centers—maintain extraordinary safety records despite operating complex, high-risk systems. High Reliability Organizations implement cultural principles that enable consistent performance.
 
 What distinguishes HROs isn't flawless execution. It's a distinctive approach to failure, simplification, operations, resilience, and expertise. They're simultaneously more concerned with failure and more resilient to it.
 
@@ -102,7 +102,7 @@ What distinguishes HROs isn't flawless execution. It's a distinctive approach to
 
 HROs treat near-misses not as successes ("nothing bad happened") but as failures that happened to be caught. When a nuclear plant operator reports an unusual vibration that turns out to be innocuous, HROs don't dismiss this as a false alarm—they celebrate it as vigilance.
 
-This attitude creates early warning systems. Problems get detected when they're small and manageable. I've tried to build this culture in my teams: reward people for raising concerns, even when those concerns turn out to be nothing. Because the one time it's something, that early warning is invaluable.
+This attitude creates early warning systems. Problems get detected when they're small and manageable. Reward people for raising concerns, even when those concerns turn out to be nothing, rather than just nodding and moving on. Because the one time it's something, that early warning is invaluable.
 
 ### Reluctance to Simplify
 
@@ -118,7 +118,7 @@ This operational awareness helps detect and correct small problems before they e
 
 ### Commitment to Resilience
 
-HROs don't just plan for expected contingencies. They build general adaptive capacity that can be deployed against novel challenges. This includes redundant systems, cross-trained personnel, and regular practice responding to simulated emergencies.
+HROs don't just plan for expected contingencies. They build general adaptive capacity that can be deployed against novel challenges. This includes redundant systems, cross-trained personnel, and regular practice responding to simulated emergencies. EVERY company I've worked for has built such systems and environment when income was good, only to fail to plan for economic downturns and toss them under a 'do more with less' philosophy. As a result, they were not there when most needed to excel in a more competitive environment.
 
 ### Deference to Expertise
 
@@ -148,7 +148,7 @@ Complex systems outlive their creators. Engineers design, build, and modify syst
 
 Traditional approaches focus on documentation. But documentation alone proves insufficient for several reasons:
 
-First, it struggles to capture tacit knowledge—the intuitive understanding that experienced operators develop through years of interaction. You can document the steps to resolve an issue, but not the subtle cues that experienced engineers use to detect problems early.
+First, it struggles to capture tacit knowledge—the intuitive understanding that experienced operators develop through years of interaction. You can document the steps to resolve an issue, but not the subtle cues that experienced engineers use to detect problems early. Tacit knowledge is why Michelin star chefs can write a cookbook and not worry about competition. Tacit knowledge is impossible to properly document, rather it takes time to learn under expert tutelage.
 
 Second, documentation diverges from reality as systems evolve. When documentation updates require extra effort beyond making changes, they often don't happen.
 
