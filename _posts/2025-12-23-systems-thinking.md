@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Systems Thinking and Complexity Theory: Why Complete Understanding Is Impossible"
-date: 2025-05-22
+date: 2025-12-23
 categories:
   - systems thinking
   - complexity
@@ -27,9 +27,7 @@ tags:
 
 _**Executive Summary:** Reality perception approaches—trying to completely understand how systems work—hit fundamental limits in complex systems. These aren't practical limitations we can overcome with better tools or more time. They're inherent to how complex systems behave. Non-linearity means small causes create huge effects. Emergence means system behaviors can't be predicted from understanding components. Feedback loops create unpredictable dynamics. The most effective approach isn't choosing between deep understanding and practical action, but recognizing when each applies and integrating both thoughtfully._
 
----
-
-This article gets a bit philosophical at times. Here's a simpler version of what we're covering: Simply put, one question asks "What exists?" and another asks "How do we know what exists?" This article explores why even our best attempts to fully understand complex systems sometimes fail—not because we're not trying hard enough, but because of how these systems fundamentally work.
+_Two questions face us: "What exists?" and "How do we know what exists?" This article explores why even our best attempts to fully understand complex systems sometimes fail—not because we're not trying hard enough, but because of how these systems fundamentally work._
 
 ---
 
@@ -41,7 +39,7 @@ Throughout this series, I've explored reality versus fitness perception framewor
 
 Peter Senge's work on systems thinking challenges a core assumption in Western technical thought: that we can understand complex things by breaking them into parts and analyzing each piece. This reductionist approach works brilliantly for many problems. But complex systems exhibit properties that emerge from interactions between components—properties you simply can't predict by understanding the parts alone.
 
-Think about it this way: you could have complete knowledge of every neuron in your brain, but that wouldn't let you predict what thought you'd have next. The thought emerges from interactions between neurons in ways that can't be reduced to neuron-level understanding. Technical systems work the same way.
+Think about it this way: you could have complete knowledge of every neuron in your brain, but that wouldn't let you predict what thought you'd have next. The thought emerges from interactions between neurons in ways that can't be reduced to neuron-level understanding. Similarly, LLMs (Large Language Models) are next word prediction software. The next word is based on probabilities and the most likely word is presented, then the next and the next and so on. The probabilities are based on the LLM training, with different training yielding different probabilities. Ask the same query again and you may or may not get the same answer. Ask another LLM and you probably will have differences in the response. Technical systems work the same way, sometimes almost mystically.
 
 ## Four Characteristics That Break Our Mental Models
 
@@ -49,7 +47,7 @@ Think about it this way: you could have complete knowledge of every neuron in yo
 
 In the simplified mental models we build, effects are usually proportional to causes. Push twice as hard, get twice the movement. But complex systems violate this constantly. A tiny configuration change in a peripheral service triggers a cascade that brings down your entire microservice architecture.
 
-I've seen teams spend days hunting for major failures—database outages, network saturation, resource exhaustion—when the actual cause was a minor config change three layers deep in the service dependency graph. The disproportionality between cause and effect makes straightforward troubleshooting nearly impossible.
+I've seen teams spend days, sometimes weeks, hunting for major failures—database outages, network saturation, resource exhaustion—when the actual cause was a minor config change three layers deep in the service dependency graph. The disproportionality between cause and effect makes straightforward troubleshooting nearly impossible.
 
 This isn't just a technical challenge. Our mental models implicitly assume proportionality. When that assumption breaks, our standard diagnostic approaches fail.
 
