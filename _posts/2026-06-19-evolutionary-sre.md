@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Evolutionary SRE: A Methodical Engineering Approach to Computational Operations"
-date: 2025-06-19
+date: 2026-06-19
 categories: [engineering-practices]
 tags: [sre, evolutionary-systems, reliability-engineering, system-design, operational-excellence, machine-learning, automation, chaos-engineering]
 author: "Your Name"
