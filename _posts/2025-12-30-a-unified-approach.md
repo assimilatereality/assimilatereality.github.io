@@ -49,7 +49,7 @@ Think about Kubernetes self-healing. When a container fails its health check, th
 - Issues that fall within your error budget thresholds
 - Scenarios where the quick fix actually fixes the problem
 
-I've watched teams waste days debugging issues that an automatic restart would have resolved in seconds. Sometimes quick is good enough. The key is knowing when it isn't.
+I've watched teams waste days debugging issues that an automatic restart would have resolved in seconds. Vendor software/server support is notorious for taking this stance. Sometimes quick is good enough. The key is knowing when it isn't. As a middle ground, when I know a restart will restore service but the problem is recurring and needs a permanent solution, support can be given a time limit to grab logs, etc. they need to analyze the issue, then hit the restart. A permanent fix can be implemented later and customers are still served in the meantime.
 
 ### Tier 2: Deep Analysis When Patterns Break
 
@@ -200,6 +200,8 @@ You stop asking whether someone is a "firefighter" or an "architect." Good engin
 **For Learning:**
 
 Each incident becomes an opportunity to improve all three tiers. Quick responses that worked become automated. Deep analysis becomes documented knowledge. Evolution happens continuously, not just after major failures.
+
+A common lapse I see is the drive to produce eliminates time to document AND to review documentation. Up-to-date documentation is worthless if personnel do not have the time and encouragement to review and learn from it.
 
 ## Why This Matters
 
