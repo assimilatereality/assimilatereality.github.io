@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Failure Points We Build Into Our Systems: A Field Guide to Preventing Tomorrow's Outages"
-date: 2025-02-01
+date: 2026-02-01
 categories: [engineering-practices, system-reliability]
 tags: [sre, system-design, failure-analysis, cynefin-framework, incident-prevention, architectural-review, chaos-engineering, proactive-engineering]
 author: [Rodney Tigges]
