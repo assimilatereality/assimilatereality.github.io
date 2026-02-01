@@ -10,7 +10,7 @@ excerpt: "Every system failure you'll experience next year already exists in you
 
 # The Failure Points We Build Into Our Systems: A Field Guide to Preventing Tomorrow's Outages
 
-_**Executive Summary:** Every system failure you will experience already exists in your architecture today—embedded during design, implementation, or the last "quick change." Drawing from real incidents including global medical system outages from single-line network errors and service account deletions causing cascading failures, this analysis presents a systematic approach to identifying and eliminating failure points before they manifest. By categorizing risks through the Cynefin framework and implementing structured identification processes, teams can transform from reactive firefighting to proactive resilience engineering._
+_**Executive Summary:** Every system failure you'll experience next year already exists in your architecture today—embedded during design, implementation, or the last "quick change." Drawing from real incidents including global medical system outages from single-line network errors and service account deletions causing cascading failures, this analysis presents a systematic approach to identifying and eliminating failure points before they manifest. By categorizing risks through the [Cynefin framework](https://assimilatereality.github.io/reality-vs-fitness/cynefin-framework/2025/12/03/Cynefin-Framework.html) and implementing structured identification processes, teams can transform from reactive firefighting to proactive resilience engineering._
 
 ## The Uncomfortable Truth About System Failures
 
@@ -88,7 +88,7 @@ This failure point is built in through poor documentation practices, inadequate 
 
 ## The Cynefin Lens: Understanding Failure Complexity
 
-Dave Snowden's Cynefin framework provides a useful lens for understanding failure points and determining appropriate mitigation strategies. Different types of failure points require different approaches to identification and prevention.
+Dave Snowden's [Cynefin framework](https://assimilatereality.github.io/reality-vs-fitness/cynefin-framework/2025/12/03/Cynefin-Framework.html) provides a useful lens for understanding failure points and determining appropriate mitigation strategies. Different types of failure points require different approaches to identification and prevention. (For a deeper exploration of how Cynefin applies to system architecture and troubleshooting, see my [comprehensive analysis of the framework](https://assimilatereality.github.io/reality-vs-fitness/cynefin-framework/2025/12/03/Cynefin-Framework.html).)
 
 ### Simple/Obvious Domain Failures
 
